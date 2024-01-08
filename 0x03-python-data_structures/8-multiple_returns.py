@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
+    my_turple = ()
     if sentence is None:
         return None
-
-    length = len(sentence)
-    first = sentence[0]
-    return length, first
+    else:
+        my_turple = len(sentence), sentence[0]
+    return my_turple
