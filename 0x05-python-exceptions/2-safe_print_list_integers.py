@@ -1,11 +1,4 @@
-#!/usr/bin/
-
-def custom_len(lst):
-    count = 0
-    for _ in lst:
-        count += 1
-    return count
-
+#!/usr/bin/python3
 
 def safe_print_list_integers(my_list=[], x=0):
     count = 0
